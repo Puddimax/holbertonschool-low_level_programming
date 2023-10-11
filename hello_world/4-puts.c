@@ -1,11 +1,10 @@
 #include<stdio.h>
 /**
- *
  * main - exercise
  *
  * Description: using puts
  *
- * Return: nothing at all
+ * Return: nothing
  */
 
 int main(void)
