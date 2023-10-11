@@ -1,5 +1,6 @@
 #include<stdio.h>
-/*
+/**
+ *
  * main - exercise
  *
  * Description: using puts
