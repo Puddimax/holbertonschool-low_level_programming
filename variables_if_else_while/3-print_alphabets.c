@@ -25,5 +25,5 @@ int main(void)
 	letterU++;
 	}
 	putchar('\n');
-    	return (0);
-        }
+	return (0);
+	}
