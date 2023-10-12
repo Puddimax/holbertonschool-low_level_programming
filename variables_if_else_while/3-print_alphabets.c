@@ -10,20 +10,20 @@
  */
 
 int main(void)
-        {
-        char letterL = 'a';
+	{
+	char letterL = 'a';
 	char letterU = 'A';
 
-        while (letterL <= 'z')
-        {
-        putchar(letterL);
-        letterL++;
-        }
+	while (letterL <= 'z')
+	{
+	putchar(letterL);
+	letterL++;
+	}
 	while (letterU <= 'Z')
 	{
 	putchar(letterU);
 	letterU++;
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+    	return (0);
         }
