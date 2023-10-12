@@ -15,8 +15,8 @@ int main(void)
 
 	while (i <= 9)
 	{
-	i++;
 	printf("%d", i);
+	i++;
 	}
 	putchar('\n');
 	return (0);
