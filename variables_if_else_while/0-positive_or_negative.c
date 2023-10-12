@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - exercise
+ * main - Entry point
  *
- * Description: random number
+ * Description: Generates a random number and prints whether it's positive, negative, or zero.
  *
- * Return: number
+ * Return: zero for success
  */
 
 int main(void)
@@ -15,16 +15,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-	{
 		printf("is positive.\n");
-	}
 	if (n < 0)
-	{
 		printf("is negative.\n");
-	}
-	if
-	{
+	if (n == 0) printf("is zero.\n");
 		printf("is zero.\n");
-	}
 	return (0);
 	}
