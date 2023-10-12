@@ -16,11 +16,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0) {
-	printf("The generated integer is positive.\n");
+	printf("is positive.\n");
 } 	else if (n < 0) {
-	printf("The generated integer is negative.\n");
+	printf("is negative.\n");
 }	else {
-	printf("The generated integer is zero.\n");
+	printf("is zero.\n");
 }
 	return (0);
 }
