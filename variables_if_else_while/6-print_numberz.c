@@ -11,7 +11,7 @@
 
 int main(void)
 	{
-	putchar('0','1','2','3','4','5','6','7','8','9');
-	putchar('\n');
+	putchar('0' + 0);
+	putchar('\n' + 0);
 	return (0);
 	}
