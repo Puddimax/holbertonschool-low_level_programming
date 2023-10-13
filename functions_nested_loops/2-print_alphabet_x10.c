@@ -9,24 +9,16 @@
  * Return: zero for success
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char c;
+	int a, b;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (a = 0; a <= 9; a++)
 	{
-	putchar(c);
-	}
+		for (b = 97; b <= 122; b++) 
+		{
+		putchar(c);
+		}
 	putchar('\n');
-}
-
-int main(void)
-{
-	int i;
-
-	for (i = 0; i < 10; i++)
-	{
-	print_alphabet();
 	}
-	return 0;
 }
