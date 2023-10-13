@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * print_alphabet - exercise
  *
  * Description: Functions alphabet
  *
