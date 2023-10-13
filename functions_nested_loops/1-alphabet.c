@@ -9,14 +9,14 @@
  * Return: zero for success
  */
 
-int main(void)
+void print_alphabet(void);
+{
+	char c;
+	
+	for (c = 'a'; c <= 'z'; c++)
 	{
-	while (print_alphabet <= 'z')
-	{
-	putchar(print_alphabet);
-	print_alphabet++;
+	_putchar(c);
 	}
-	putchar('\n');
-	return (0);
-	}
+	_putchar('\n');
+}
 	
