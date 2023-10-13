@@ -11,12 +11,15 @@
 
 int main(void)
         {
-	int i;
+	int i
+	char c
 
-	while (i = '0'; i >= '0' && i < '16'; i++)
+	for (i = '0'; i < '9'; i++)
 	{
-	putchar(i + '0');
+	putchar(i);
 	}
-	putchar('\n');
+	for (c = 'a'; c < 'f'; c++)
+	}
+	putchar(c);
 	return (0);
 	}
