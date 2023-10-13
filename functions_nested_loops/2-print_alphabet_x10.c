@@ -20,7 +20,7 @@ void print_alphabet(void)
 	putchar('\n');
 }
 
-int main()
+int main(void)
 {
 	int i;
 
