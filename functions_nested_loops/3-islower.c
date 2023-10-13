@@ -1,10 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
- * int _islower - exercise
+ * _islower - exercise
  *
- * Description: Functions alphabet
+ * @c: the caracter is normal
  *
  * Return: 1 for lowercase, 0 for other
  */
@@ -12,7 +10,7 @@
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
-	{
+	{	
 		return (1);
 	}
 	else
