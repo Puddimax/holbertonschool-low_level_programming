@@ -3,8 +3,8 @@
 #include <time.h>
 /**
  * main - Entry point
- *Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
- * Description: Base ten
+ *
+ * Description: Reverse
  *
  * Return: zero for success
  */
