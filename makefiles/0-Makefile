@@ -3,4 +3,5 @@ school: main.c
 
 all: school
 
-clean: rm -f school
+clean:
+	rm -f school
