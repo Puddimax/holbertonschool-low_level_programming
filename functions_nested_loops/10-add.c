@@ -2,7 +2,8 @@
 /**
  * add - Print the sign of a number.
  *
- * @n: The number to be checked.
+ * @num1: The number to be checked.
+ * @num2: Second number
  *
  * Return: 1 prints +, 0 prints zero, -1 prints -.
  */
