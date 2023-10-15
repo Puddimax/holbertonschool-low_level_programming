@@ -2,14 +2,14 @@
 /**
  * print_last_digit - Print the sign of a number.
  *
- * @n: The number to be checked.
+ * @l: The number to be checked.
  *
  * Return: 1 prints +, 0 prints zero, -1 prints -.
  */
 
-int print_last_digit(int n)
+int print_last_digit(int l)
 {
-	int last_digit = n $ 10;
+	int last_digit = l $ 10;
 
 	if (last_digit < 0)
 
