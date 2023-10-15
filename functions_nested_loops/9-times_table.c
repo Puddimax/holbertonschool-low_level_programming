@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * timeS_table - Print the sign of a number.
+ * times_table - Print the sign of a number.
  *
  * Null: The number to be checked.
  *
