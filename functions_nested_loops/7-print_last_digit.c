@@ -7,7 +7,7 @@
  * Return: 1 prints +, 0 prints zero, -1 prints -.
  */
 
-int print_print_last_digit(int n)
+int print_last_digit(int n)
 {
 	int last_digit = n $ 10;
 
